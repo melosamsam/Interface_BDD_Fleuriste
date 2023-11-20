@@ -1,0 +1,23 @@
+﻿<Window x:Class="Projet_BDD_WPF.Personnalisée"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_BDD_WPF"
+        mc:Ignorable="d"
+        Title="Personnalisée" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="75,30,0,0" Text="Produits disponibles :" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="liste" HorizontalAlignment="Left" Margin="75,75,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Suivant" HorizontalAlignment="Left" Margin="650,380,0,0" VerticalAlignment="Top" Click="clicksuivant"/>
+        <TextBox x:Name="choix" HorizontalAlignment="Left" Margin="500,350,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,350,0,0" Text="Saisir le nom du produit souhaité" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Ajouter ce produit" HorizontalAlignment="Left" Margin="650,350,0,0" VerticalAlignment="Top" Click="clickchoix"/>
+        <TextBlock x:Name="reessayer" HorizontalAlignment="Left" Margin="350,380,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" Foreground="red"/>
+        <TextBlock HorizontalAlignment="Left" Margin="670,38,0,0" Text="Produits choisis" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="prodchoisi" HorizontalAlignment="Left" Margin="670,75,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Pas sûr ?" HorizontalAlignment="Left" Margin="100,350,0,0" VerticalAlignment="Top" Click="clickindecis"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Projet_BDD_WPF.Espacepro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_BDD_WPF"
+        mc:Ignorable="d"
+        Title="Espacepro" Height="250" Width="400">
+    <Grid>
+        <RadioButton x:Name="bdd" Content="Consulter les base de données" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="stat" Content="Statistiques" HorizontalAlignment="Left" Margin="50,80,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="commande" Content="Gérer les commandes" HorizontalAlignment="Left" Margin="50,140,0,0" VerticalAlignment="Top" />
+        <Button Content="Valider" HorizontalAlignment="Left" Margin="160,184,0,0" VerticalAlignment="Top" Click="clickvalider"/>
+        <RadioButton x:Name="xml" Content="Exporter en xml" HorizontalAlignment="Left" Margin="50,110,0,0" VerticalAlignment="Top" />
+    </Grid>
+</Window>

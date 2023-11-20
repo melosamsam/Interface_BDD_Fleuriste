@@ -1,0 +1,31 @@
+﻿<Window x:Class="Projet_BDD_WPF.Stats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_BDD_WPF"
+        mc:Ignorable="d"
+        Title="Stats" Height="550" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="40,25,0,0" Text="Prix moyen du bouquet acheté" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="avgbouq" HorizontalAlignment="Left" Margin="325,25,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,50,0,0" Text="Meilleur client du mois" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="bestcmonth" HorizontalAlignment="Left" Margin="325,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,75,0,0" Text="Meilleur client de l'année" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="bestcyear" HorizontalAlignment="Left" Margin="325,75,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,100,0,0" Text=" Bouquet standard ayant eu le plus de succès" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="bouqstand" HorizontalAlignment="Left" Margin="325,100,0,0" Text="?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,125,0,0" Text="Clients ayant effectué plus de commande que la moyenne" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="listesupmoy" HorizontalAlignment="Left" Margin="40,150,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="350,125,0,0" Text="Clients commandant depuis le meme magasin" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="listemememag" HorizontalAlignment="Center" Margin="320,150,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,280,0,0" Text="Clients ayant effectué des commandes personnalisées" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="listeperso" HorizontalAlignment="Left" Margin="40,305,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="350,25,0,0" Text="Prix moyen d'une commande" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="avgcom" HorizontalAlignment="Left" Margin="700,25,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="500,60,0,0" Text="Meilleur magasin" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="magasin" HorizontalAlignment="Left" Margin="650,60,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

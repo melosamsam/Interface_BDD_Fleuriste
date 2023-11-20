@@ -1,0 +1,15 @@
+﻿<Window x:Class="Projet_BDD_WPF.ChoixCommande"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_BDD_WPF"
+        mc:Ignorable="d"
+        Title="ChoixCommande" Height="250" Width="400">
+    <Grid>
+        <RadioButton x:Name="perso" Content="Commande personnalisée" HorizontalAlignment="Left" Margin="100,75,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="standard" Content="Commande standard" HorizontalAlignment="Left" Margin="100,110,0,0" VerticalAlignment="Top"/>
+        <Button Content="Valider" HorizontalAlignment="Left" Margin="275,175,0,0" VerticalAlignment="Top" Click="clickvalider"/>
+
+    </Grid>
+</Window>
